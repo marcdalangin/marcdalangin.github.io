@@ -1,0 +1,28 @@
+.body{
+    margin: 0;
+    background-color: #010101;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    height: 1080px;
+    width: 1920px;
+}
+
+.main-body{
+    background-color: red;
+    padding: 0px;
+    height: 1080px;
+    width: 1920px;
+}
+
+.img-bg{
+    height: 1080px;
+    width: 1920px;
+}
+
+.login-panel{
+    background-color: #000000;
+    width: 596px;
+    height: 471px;
+    position: relative;
+    left: 1080px;
+}
