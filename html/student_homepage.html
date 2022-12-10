@@ -4,98 +4,24 @@
 <title>Student Homepage</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
+<link rel="stylesheet" href="css/style.css"/>
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-/* Style the header */
-header {
-  background-color: #10530E;
-  height: 101px;
-  width: 1920px;
-  text-align:center;
-  font-size: 35px;
-  color: white;
-}
-
-/* Create two columns/boxes that floats next to each other */
-nav {
-  float: left;
-  width: 449px;
-  height: 979px; /* only for demonstration, should be removed */
-  background: #0A391E;
-}
-
-/* Style the list inside the menu */
-nav ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-
-/* Clear floats after the columns */
-section::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.col-top-1{
-    background-color: #d9d9d9;
-    width: 688px;
-    height: 425px;
-}
-.col-bot-1{
-    background-color: #d9d9d9;
-    width: 688px;
-    height: 425px;
-}
-.col-rig-1{
-    background-color: #d9d9d9;
-    width: 688px;
-    height: 917px;   
-}
-
-
-
-
-
-
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-@media (max-width: 600px) {
-  nav, article {
-    width: 100%;
-    height: auto;
-  }
-}
-</style>
 </head>
 <body>
-<header>
-</header>
-<div class="main-body">
-    <section>
-        <nav>
-          <ul>
-            
-          </ul>
-        </nav>
-        <div class="col-top-1">
-
-          </div>
-          <div class="col-bot-1">
-    
-          </div>
-          <div class="col-rig-1">
-        
-          </div>
-      </section>
+<div class="wrapper">
+    <header class="header">
+    <h1>header</h1>
+    </header>
+    <article class="main">
+     <p> hyhhhh</p>   
+    </article>
+    <aside class="aside asidel">
+     <h1> asidel</h1>   
+    </aside>
+    <aside class="aside aside2">
+        <h1> aside2</h1>   
+    </aside>
+    <footer class="footer">
+    <h1>footer</h1>
 </div>
 
-<footer>
-</footer>

@@ -1,0 +1,42 @@
+.wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+}
+
+.wrapper > * {
+  padding: 10px;
+  margin: 10px;
+  flex: 1 100%;
+  border-radius: 10px;
+}
+
+.header {
+  background: #10530E;
+  height: 101px;
+  width: 1920px;
+}
+
+.footer{
+  background: #10530E;
+  height: 120px;
+}
+
+
+.main{
+  background: #0A391E;
+  height: 979px;
+  width: 449px;
+}
+
+.aside1 {
+  background: #D9D9D9;
+  height: 425px;
+  width: px;
+}
+
+.aside2{
+  background: #D9D9D9;
+  height: 425px;
+  width: px;
+}
